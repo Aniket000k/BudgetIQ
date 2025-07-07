@@ -24,7 +24,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-//import { Switch } from "@/components/ui/switch";
+import { Switch } from "@/components/ui/switch";
 import { createAccount } from "@/actions/dashboard";
 import { accountSchema } from "@/app/lib/schema";
 
