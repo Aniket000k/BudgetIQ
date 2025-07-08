@@ -23,11 +23,14 @@ export default function RootLayout({ children }) {
         <main className="min-h-screen "> {children}</main>
 
         {/*Footer can be added here*/}
-        <footer className="bg-blue-50 text-white p-12 text-center">
-          <div className="container mx-auto px-4 text-center text-gray-600">
-            <p className="">Hooooooooooooooooooooooooooooooooooooo</p>
-          </div>
-        </footer>
+        <footer className="bg-blue-50  py-8">
+  <div className="container mx-auto px-4 text-left">
+    <h2 className="text-2xl font-semibold mb-2">BudgetIQ</h2>
+    <p className=" mb-4">Smart way to manage your money and track your spending easily.</p>
+    <p className="mt-4 text-xs text-center ">© 2025 BudgetIQ. All rights reserved.</p>
+  </div>
+</footer>
+
       </body>
     </html>
     </ClerkProvider>
