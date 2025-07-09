@@ -1,4 +1,3 @@
-import { Section, Text } from "@react-email/components";
 import {
   BarChart3,
   Receipt,
@@ -7,6 +6,7 @@ import {
   Globe,
   Zap,
 } from "lucide-react";
+import Image from "next/image";
 
 // Stats Data
 export const statsData = [
@@ -93,7 +93,7 @@ export const testimonialsData = [
     role: "Small Business Owner",
     image: "https://randomuser.me/api/portraits/women/75.jpg",
     quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "BudgetIQ has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
   },
   {
     name: "Michael Chen",
@@ -107,7 +107,15 @@ export const testimonialsData = [
     role: "Financial Advisor",
     image: "https://randomuser.me/api/portraits/women/74.jpg",
     quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "I recommend BudgetIQ to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
   },
 ];
+
+<Image
+  src={testimonial.image}
+  alt={testimonial.name}
+  width={80}
+  height={80}
+  className="rounded-full"
+/>
 
