@@ -116,6 +116,6 @@ export const testimonialsData = [
   alt={testimonial.name}
   width={80}
   height={80}
+  unoptimized
   className="rounded-full"
-/>
-
+/>;
