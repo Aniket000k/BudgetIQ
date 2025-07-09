@@ -6,7 +6,7 @@ import {
   Globe,
   Zap,
 } from "lucide-react";
-import Image from "next/image";
+
 
 // Stats Data
 export const statsData = [
@@ -110,12 +110,3 @@ export const testimonialsData = [
       "I recommend BudgetIQ to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
   },
 ];
-
-<Image
-  src={testimonial.image}
-  alt={testimonial.name}
-  width={80}
-  height={80}
-  unoptimized
-  className="rounded-full"
-/>;
