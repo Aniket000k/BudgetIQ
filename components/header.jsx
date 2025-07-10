@@ -32,7 +32,7 @@ const Header = async () => {
               <Button variant={"outline"}>
                 {" "}
                 <LayoutDashboard size={18} />
-                <span className="hidden md:inline">Dashboard</span>
+                <span >Dashboard</span>
               </Button>
             </Link>
             <Link href="/transaction/create">
