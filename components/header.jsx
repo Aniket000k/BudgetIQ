@@ -28,7 +28,7 @@ const Header = async () => {
         </Link>
         <div className="flex items-center space-x-4">
           <SignedIn>
-            <Link href="/dashboard" className="hidden md:inline-flex">
+            <Link href="/dashboard" className="">
               <Button variant={"outline"}>
                 {" "}
                 <LayoutDashboard size={18} />
